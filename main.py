@@ -52,7 +52,7 @@ def upload_dir(file_path=''):
         drive = GoogleDrive(gauth)
 
         file_list = drive.ListFile({'q': "title contains 'result' and trashed=false"}).GetList()
-        print(file_list[0]['title'])  # should be the title of the file we just created
+        print(file_list[0]['title'])
         file_id = file_list[0]['id']
 
         file_name = 'result.xlsx'
