@@ -14,7 +14,7 @@ meaning = []
 
 file_name = 'result.xlsx'
 
-def parsingAPI():
+def parsing_API():
     '''
     Парсинг самого кода ответа и описания для каждого
     '''
